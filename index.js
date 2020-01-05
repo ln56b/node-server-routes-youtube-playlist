@@ -1,6 +1,6 @@
 const express = require('express');
 const app = express();
-const port = 2000;
+const port = 6000;
 
 const bodyParser = require('body-parser');
 
