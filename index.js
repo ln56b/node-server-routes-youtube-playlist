@@ -3,7 +3,7 @@ const bodyParser = require('body-parser');
 const playlistRouter = require('./routes/playlists');
 
 const app = express();
-const port = 2000;
+const port = 1000;
 app.use(bodyParser.json());
 app.use('/api/playlists', playlistRouter);
 
